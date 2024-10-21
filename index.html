@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Resume Builder | Muhammad Ibrahim</title>
+</head>
+<body>
+    <div class="container">
+        <header class="resume-header">
+            <div class="profile-pic">
+                <img src="profile.jpg" alt="Profile Picture" />
+            </div>
+            <div class="header-text">
+                <h1>Muhammad Ibrahim</h1>
+                <p>Frontend Developer</p>
+            </div>
+        </header>
+
+        <form action="#">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <div class="form-div">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" value="Muhammad Ibrahim" required />
+                </div>
+                <div class="form-div">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" value="Jabraheemkhan557@gmail.com" required />
+                </div>
+                <div class="form-div">
+                    <label for="number">Number:</label>
+                    <input type="tel" id="number" name="number" value="+923403837017" required />
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Education</legend>
+                <div class="form-div">
+                    <label for="education">Education:</label>
+                    <input type="text" id="education" name="education" value="Information technology/B.com-2" required />
+                </div>
+                <div class="form-div">
+                    <label for="university">University/College:</label>
+                    <input type="text" id="university" name="university" value="GIAIC Karachi and Commerce College Larkana" />
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Key Skills</legend>
+                <div id="skillsSec">
+                  <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript/TypeScript</li>
+                    <li>Next.js</li>
+                    <li>Figma</li>
+                    <li>Prompt Engineer</li>
+                </ul>
+                </div>
+              
+            </fieldset>
+
+            <fieldset>
+                <legend>Experience</legend>
+                <div>
+                    <label for="experience">Explain:</label>
+                    <textarea name="experience" id="experience" rows="4" required></textarea>
+                </div>
+            </fieldset>
+        </form>
+
+        <button id="Btn">Hide and Show Skills</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
